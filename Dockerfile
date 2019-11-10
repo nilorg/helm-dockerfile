@@ -5,4 +5,4 @@ RUN apk --no-cache add openssl
 
 RUN curl -LO https://git.io/get_helm.sh
 RUN chmod 700 get_helm.sh
-RUN ./get_helm.sh
+RUN ./get_helm.sh --version v2.15.2
