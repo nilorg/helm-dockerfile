@@ -6,4 +6,4 @@ RUN apk --no-cache add git
 
 RUN curl -LO https://git.io/get_helm.sh
 RUN chmod 700 get_helm.sh
-RUN ./get_helm.sh --version v2.15.2
+RUN ./get_helm.sh --version v3.1.0
